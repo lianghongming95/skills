@@ -5,3 +5,20 @@
 规范表结构
 使用-官网-看英语文档，不难的
 表结构，找出大众的-能说明清楚就行
+官网：https://docs.staruml.io/working-with-diagrams/entity-relationship-diagram#column
+Column
+To add a Column:
+Select an Entity.
+Select Model | Add | Column in Menu Bar or Add | Column in Context Menu.
+You can use QuickEdit for Column by double-click or press Enter on a selected Column.
+Column Expression : Edit column expression.
+Syntax of Column Expression
+column ::= name [ ':' type ] [ '(' length ')' ]
+name ::= (identifier)
+type ::= (identifier)
+length ::= (string)
+Primary Key : Check whether the column is primary key or not.
+Add (Ctrl+Enter) : Add one more column in the below.
+Delete (Ctrl+Delete) : Delete the column
+Move Up (Ctrl+Up) : Move the column up.
+Move Down (Ctrl+Down) : Move the column down.
