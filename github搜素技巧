@@ -1,1 +1,71 @@
+git搜索
 
+作用
+
+以后在github多看代码
+
+技巧
+
+仓库
+
+in:name
+
+in:description
+
+in:readme
+
+常用
+
+常用
+
+# 项目名字(name)里有 python 的
+
+in:name python
+
+
+
+# 名字(name)里有 python 的并且 stars 大于 3000 的
+
+in:name python starts:>3000
+
+
+
+# 名字(name)里有 python 的并且 stars 大于 3000 、forks 大于 200 的
+
+in:name python starts:>3000 forks:>200
+
+
+
+
+
+# 详情(readme)里面有 python 的并且 stars 大于 3000 的
+
+in:readme python starts:>3000
+
+
+
+# 描述(description)里面有 python 的并且 stars 大于 3000 的
+
+in:description python starts:>3000
+
+
+
+# 描述(description)里面有 python 的并且是 python 语言的
+
+in:description python language:python
+
+
+
+# 描述(description)里面有 python 的并且 2019-12-20 号之后有更新过的
+
+in:description python pushed:>2019-12-20
+
+感想
+
+查某个代码不现实
+
+查找大数据面试
+
+链接
+
+https://www.w3cschool.cn/githubcn/githubcn-5ode3aq3.html
